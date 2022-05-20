@@ -1,0 +1,6 @@
+2022-05-18 21:35:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNT" not found; SQL statement:
+INSERT INTO ACCOUNT (bio, name, token, gmtCreate, gmtModified) values(?, ?, ?, ?, ?) [42102-199]
+2022-05-18 21:36:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ACCOUNT" not found; SQL statement:
+insert into account (bio, name, token, gmtCreate, gmtModified) values(?, ?, ?, ?, ?) [42102-199]
