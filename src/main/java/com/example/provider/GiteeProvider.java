@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.net.http.HttpClient;
 
 @Controller
-public class GithubProvider {
+public class GiteeProvider {
     public String getAccessToken(AccessTokenDTO accessTokenDTO) {
         //shit redirect_uri
         String result1 = HttpUtil.post("https://gitee.com/oauth/token?grant_type=authorization_code&redirect_uri=http://localhost:9999/callback", JSON.toJSONString(accessTokenDTO));

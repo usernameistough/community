@@ -8,7 +8,7 @@ import lombok.Setter;
 @Getter
 @Setter
 //設置接受到的用戶的信息
-public class User {
+public class Account {
     private Integer id;
     private String bio;
     private String name;
